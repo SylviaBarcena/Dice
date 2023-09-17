@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="diceGameStyle.css" />
+  </head>
+  <body>
+    <h1>Dice Game</h1>
+    <div id="rules" class="rules">
+      <h2>Rules:</h2>
+      <ul class="list-container">
+        <li>
+          When you click the Roll Dice! button, you will roll up to 10 dice, one
+          at a time.
+        </li>
+        <li>
+          If you roll a 1, the game stops and all further rolls are forfeited.
+        </li>
+        <li>
+          If you roll 2, 3, or 4, you win nothing, but you get to roll again.
+        </li>
+        <li>
+          If you roll a 5, you win 5 gold coins and you get to roll again.
+        </li>
+        <li>
+          If you roll a 6, you win 6 gold coins and you get to roll again.
+        </li>
+      </ul>
+    
+    <button onclick="rollDice()">Roll Dice!</button>
+    <button onclick="resetGame()">Reset Game</button>
+    <p id="result"></p>
+    <img id="diceImg" src="" alt="Dice Image" style="display: none" />
+    <!--The displayDiceImage() function is used to display the corresponding dice image based on the roll result.-->
+    <p id="goldCoins">Total Coins: 0</p>
+  </div>
+    <script src="diceGameScript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+  font-family: Verdana, sans-serif;
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(to bottom, rgb(246, 161, 161), rgb(224, 43, 43));
+}
+
+/* Box container for rules */
+.rules {
+  width: 60%; /* Adjust the width as needed */
+  margin: auto;
+  padding: 20px; /* Add some padding to the box */
+  border: 3px solid #067720;
+  background-color: #141f14; /* Set the background color for the box */
+  color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px black;
+}
+
+/* Style for the rules list */
+.list-container {
+  text-align: center;
+  margin-top: 10px; /* Adjust spacing between the button and the list */
+  color: white;
+}
+
+img#diceImg {
+  width: 100px;
+  height: 100px;
+  display: none;
+  margin-top: 10px;
+  margin: auto;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 10px;
+  background-color: #067720;
+  color: white;
+  border: 2px solid #067720;
+  border-radius: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0e4902;
+  color: #067720;
+  border: 2px solid #0b0b0b;
+}
